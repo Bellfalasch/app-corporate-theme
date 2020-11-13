@@ -115,6 +115,9 @@
 		</field-set>
 	</form>
 	<mappings>
+		<mapping filter="/site/requestfilter.js" order="20">
+			<pattern>/.*</pattern>
+		</mapping>
 		<mapping controller="/lib/urlredirect.js">
 		  <match>type:'com.enonic.app.corporate.theme:url'</match>
 		</mapping>
